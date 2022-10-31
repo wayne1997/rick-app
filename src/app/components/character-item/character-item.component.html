@@ -1,0 +1,14 @@
+<ion-item 
+button
+role="article"
+(click)="showModal()"
+ >
+  <ion-avatar slot="start">
+    <img [src]="character.image" />
+  </ion-avatar>
+  <ion-label>
+    {{character.name}}
+    <p>Estado: {{character.status}}</p>
+    <p>Especie: {{character.species}}</p>
+  </ion-label>
+</ion-item>
